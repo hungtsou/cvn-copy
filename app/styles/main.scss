@@ -305,6 +305,7 @@ section.about_section {
     background:#444;
     color:#fff;
     margin-top:20px;
+    padding:15px 0;
     &:hover {
       background:#fff;
       color:#444;
@@ -544,12 +545,14 @@ section.resume_education_section,section.resume_work_section {
 
 .contact_section {
   background:#191919;
+  .form-horizontal textarea {
+    height:258px;
+  }
   h4 {
     color:#fff;
   }
   color:#636363;
   .sp_envelope {
-    font-size:50px;
     color:#fff;
   }
   .form-horizontal .contact-btn {
@@ -570,6 +573,33 @@ section.resume_education_section,section.resume_work_section {
   .form-horizontal .form-control {
     background:#373233;
     border:1px solid #5E5555;
+  }
+}
+
+@media (min-width: 320px) {
+  .contact_section  .sp_envelope {
+    font-size:25px;
+  }
+  .contact_section p {
+    font-size:12px;
+  }
+}
+
+@media (min-width: 480px) {
+  .contact_section  .sp_envelope {
+    font-size:30px;
+  }
+  .contact_section p {
+    font-size:15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact_section  .sp_envelope {
+    font-size:50px;
+  }
+  .contact_section p {
+    font-size:18px;
   }
 }
 
