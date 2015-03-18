@@ -162,6 +162,29 @@ header {
   }
 }
 
+@media (max-width: 319px) {
+  header {
+    min-height:413px;
+    .jumbotron {
+      margin-bottom:0;
+    }
+    .jumbotron h1 {
+      font-size:35px;
+    }
+  .jumbotron p {
+      font-size:15px;
+    }
+  .jumbotron .social {
+      width:57%;
+      margin:0 auto;
+    }
+  .jumbotron .social li a {
+      font-size:18px;
+      padding:0 11px;
+    }
+  }
+}
+
 @media (min-width: 320px) {
   header {
     min-height:413px;
@@ -175,7 +198,7 @@ header {
       font-size:15px;
     }
   .jumbotron .social {
-      width:119px;
+      width:50%;
       margin:0 auto;
     }
   .jumbotron .social li a {
@@ -195,7 +218,7 @@ header {
       font-size:15px;
     }
     .jumbotron .social {
-      width:112px;
+      width:27%;
       margin:0 auto;
     }
   .jumbotron .social li a {
@@ -225,7 +248,7 @@ header {
       font-size:20px;
     }
   .jumbotron .social {
-      width:124px;
+      width:23%;
       float:none;
       margin:0 auto;
     }
@@ -250,7 +273,7 @@ header {
       font-size:20px;
     }
   .jumbotron .social {
-      width:137px;
+      width:19%;
       margin:0 auto;
     }
   .jumbotron .social li a {
@@ -274,7 +297,7 @@ header {
       font-size:20px;
     }
   .jumbotron .social {
-      width:191px;
+      width:22%;
       margin:0 auto;
     }
   .jumbotron .social li a {
@@ -571,6 +594,7 @@ section.resume_education_section,section.resume_work_section {
   .form-horizontal .form-control {
     background:#373233;
     border:1px solid #5E5555;
+    color:#fff;
   }
 }
 
@@ -611,8 +635,6 @@ footer {
   .up-btn {
     font-size:45px;
     color:#fff;
-    position:absolute;
-    top:-29px;
     &:hover {
       color:#11ABB0;
     }
@@ -638,16 +660,16 @@ footer {
 
 @media (min-width: 320px) {
   footer {
+    .sp_margin_top {
+      margin-top:-59px;
+    }
     .up-btn {
       font-size:45px;
       color:#fff;
-      position:absolute;
-      top:-29px;
     }
     .social {
-      width:246px;
+      width:108px;
       margin:0 auto; 
-      margin-right:15px;
       li {
         float:left;
       }
@@ -667,13 +689,8 @@ footer {
     .up-btn {
       font-size:45px;
       color:#fff;
-      position:absolute;
-      top:-29px;
     }
     .social {
-      width:246px;
-      margin:0 auto; 
-      margin-right:95px;
       li {
         float:left;
       }
@@ -693,13 +710,10 @@ footer {
     .up-btn {
       font-size:45px;
       color:#fff;
-      position:absolute;
-      top:-29px;
     }
     .social {
-      width:319px;
-      margin:0 auto; 
-      margin-right:152px;
+      width:134px;
+      float:none;
       li {
         float:left;
       }
@@ -719,13 +733,9 @@ footer {
     .up-btn {
       font-size:45px;
       color:#fff;
-      position:absolute;
-      top:-29px;
     }
     .social {
-      width:354px;
-      margin:0 auto; 
-      margin-right:226px;
+      width:151px;
       li {
         float:left;
       }
@@ -745,13 +755,9 @@ footer {
     .up-btn {
       font-size:45px;
       color:#fff;
-      position:absolute;
-      top:-29px;
     }
     .social {
-      width:426px;
-      margin:0 auto; 
-      margin-right:226px;
+      width:161px;
       li {
         float:left;
       }
